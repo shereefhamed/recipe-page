@@ -73,8 +73,10 @@ li {
     padding: 1rem;
 }
 
-.preparation-time h3 {
+.preparation-time-title {
     color: var(--rose-800);
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
 }
 
 table {
@@ -107,7 +109,7 @@ tr {
     }
 
     .recipe-card {
-        width: 60%;
+        width: 50%;
         border-radius: 1rem;
         padding: 2rem;
         margin: 6rem auto;
