@@ -38,11 +38,20 @@ h5,
 h6 {
     font-family: 'Young Serif', sans-serif;
     color: var(--stone-900);
+    font-weight: 400;
 }
 
 
 li {
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
+}
+
+li::marker{
+    color: var(--brown-800);
+}
+
+ol li::marker{
+    font-weight: bold;
 }
 
 .section-title {
